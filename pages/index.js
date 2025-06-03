@@ -66,7 +66,17 @@ export default function Index({ posts, globalData }) {
     </Layout>
   );
 }
+export default function Layout({ children }) {
+  return (
+    <div> 
+      <img src="https://picshost.pics/PGXDD6" alt="Copyright" />
+    {children}
+    </div>
+  )
+    }
 
+
+  
 export function getStaticProps() {
   const posts = getPosts();
   const globalData = getGlobalData();
