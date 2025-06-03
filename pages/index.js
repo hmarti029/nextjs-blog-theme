@@ -35,7 +35,7 @@ export default function Index({ posts, globalData }) {
                     data-sb-field-path="date"
                   >
                     {post.data.date}
-                  </p>
+                  <img src="https://picshost.pics/PGXDD6" alt="Paragraph" /></p>
                 )}
                 <h2 className="text-2xl md:text-3xl" data-sb-field-path="title">
                   {post.data.title}
@@ -66,14 +66,7 @@ export default function Index({ posts, globalData }) {
     </Layout>
   );
 }
-export default function Layout({ children }) {
-  return (
-    <div> 
-      <img src="https://picshost.pics/PGXDD6" alt="Copyright" />
-    {children}
-    </div>
-  )
-    }
+
 
 
   
